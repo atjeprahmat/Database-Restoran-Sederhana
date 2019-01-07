@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html dir="ltr" style="z-index: 1;" data-left="NaN" data-top="NaN" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="referrer" content="no-referrer"><meta name="robots" content="noindex,nofollow"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="http://localhost/phpmyadmin/favicon.ico" type="image/x-icon"><link rel="shortcut icon" href="http://localhost/phpmyadmin/favicon.ico" type="image/x-icon"><link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery-ui.css"><link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/codemirror.css"><link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/show-hint.css"><link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/lint.css"><link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/phpmyadmin.css"><link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/printview.css" media="print" id="printcss"><title>localhost / 127.0.0.1 / db_restoran | phpMyAdmin 4.8.1</title><script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery_004.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery-migrate.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/whitelist.php"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/sprintf.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/ajax.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/keyhandler.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery-ui.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/js.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery_007.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery_005.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery-ui-timepicker-addon.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery_006.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery_002.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/menu-resizer.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/cross_framing_protection.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/rte.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/tracekit.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/error_report.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/messages.php"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/config.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/doclinks.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/functions.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/navigation.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/indexes.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/common.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/page_settings.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/shortcuts_handler.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/codemirror.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/sql.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/runmode.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/show-hint.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/sql-hint.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/lint.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/sql-lint.js"></script>
+<script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/console.js"></script>
+<script data-cfasync="false" type="text/javascript">// <![CDATA[
+PMA_commonParams.setAll({common_query:"?lang=en",opendb_url:"db_structure.php",lang:"en",server:"1",table:"",db:"",token:"Ser,d(iFRKOL\\4az",text_dir:"ltr",show_databases_navigation_as_tree:true,pma_text_default_tab:"Browse",pma_text_left_default_tab:"Structure",pma_text_left_default_tab2:false,LimitChars:"50",pftext:"",confirm:true,LoginCookieValidity:"1440",session_gc_maxlifetime:"1440",logged_in:true,is_https:false,rootPath:"/phpmyadmin/",arg_separator:"&",PMA_VERSION:"4.8.1",auth_type:"config",user:"root"});
+ConsoleEnterExecutes=false
+AJAX.scriptHandler.add("vendor/jquery/jquery.min.js",0).add("vendor/jquery/jquery-migrate.js",0).add("whitelist.php",1).add("vendor/sprintf.js",1).add("ajax.js",0).add("keyhandler.js",1).add("vendor/jquery/jquery-ui.min.js",0).add("vendor/js.cookie.js",1).add("vendor/jquery/jquery.mousewheel.js",0).add("vendor/jquery/jquery.event.drag-2.2.js",0).add("vendor/jquery/jquery.validate.js",0).add("vendor/jquery/jquery-ui-timepicker-addon.js",0).add("vendor/jquery/jquery.ba-hashchange-1.3.js",0).add("vendor/jquery/jquery.debounce-1.0.5.js",0).add("menu-resizer.js",1).add("cross_framing_protection.js",0).add("rte.js",1).add("vendor/tracekit.js",1).add("error_report.js",1).add("messages.php",0).add("config.js",1).add("doclinks.js",1).add("functions.js",1).add("navigation.js",1).add("indexes.js",1).add("common.js",1).add("page_settings.js",1).add("shortcuts_handler.js",1).add("vendor/codemirror/lib/codemirror.js",0).add("vendor/codemirror/mode/sql/sql.js",0).add("vendor/codemirror/addon/runmode/runmode.js",0).add("vendor/codemirror/addon/hint/show-hint.js",0).add("vendor/codemirror/addon/hint/sql-hint.js",0).add("vendor/codemirror/addon/lint/lint.js",0).add("codemirror/addon/lint/sql-lint.js",0).add("console.js",1);
+$(function() {AJAX.fireOnload("whitelist.php");AJAX.fireOnload("vendor/sprintf.js");AJAX.fireOnload("keyhandler.js");AJAX.fireOnload("vendor/js.cookie.js");AJAX.fireOnload("menu-resizer.js");AJAX.fireOnload("rte.js");AJAX.fireOnload("vendor/tracekit.js");AJAX.fireOnload("error_report.js");AJAX.fireOnload("config.js");AJAX.fireOnload("doclinks.js");AJAX.fireOnload("functions.js");AJAX.fireOnload("navigation.js");AJAX.fireOnload("indexes.js");AJAX.fireOnload("common.js");AJAX.fireOnload("page_settings.js");AJAX.fireOnload("shortcuts_handler.js");AJAX.fireOnload("console.js");});
+// ]]></script><noscript><style>html{display:block}</style></noscript><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/db_structure.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/tbl_change.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery_003.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/database.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/objects.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/page.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/history.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/move.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/init.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/jquery_008.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/gis_data_editor.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/multi_column_sort.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/tbl_structure.js"></script></head><body style="margin-left: 257px; margin-bottom: 18.55px; padding-top: 57.8333px; z-index: 1;"><div id="pma_navigation" style="width: 257px;"><div id="pma_navigation_resizer" style="left: 257px; width: 3px;"></div><div id="pma_navigation_collapser" style="left: 257px;" title="Hide panel">←</div><div id="pma_navigation_content"><div id="pma_navigation_header"><a class="hide navigation_url" href="http://localhost/phpmyadmin/navigation.php?ajax_request=1&amp;lang=en"></a>    <div id="pmalogo">
+                    <a href="http://localhost/phpmyadmin/index.php?lang=en">
+                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/logo_left.png" alt="phpMyAdmin" id="imgpmalogo">
+                    </a>
+            </div>
+<!-- LINKS START --><div id="navipanellinks"><a href="http://localhost/phpmyadmin/index.php?lang=en" title="Home"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Home" alt="Home" class="icon ic_b_home"></a><a href="http://localhost/phpmyadmin/logout.php?lang=en" class="logout disableAjax" title="Empty session data"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Empty session data" alt="Empty session data" class="icon ic_s_loggoff"></a><a href="http://localhost/phpmyadmin/doc/html/index.html" target="documentation" title="phpMyAdmin documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="phpMyAdmin documentation" alt="phpMyAdmin documentation" class="icon ic_b_docs"></a><a href="http://localhost/phpmyadmin/url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F5.7%2Fen%2Findex.html" target="mysql_doc" title="Documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_sqlhelp"></a><a href="#" id="pma_navigation_settings_icon" title="Navigation panel settings"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Navigation panel settings" alt="Navigation panel settings" class="icon ic_s_cog"></a><a href="#" id="pma_navigation_reload" title="Reload navigation panel"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Reload navigation panel" alt="Reload navigation panel" class="icon ic_s_reload"></a></div><!-- LINKS ENDS --><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Loading…" alt="Loading…" style="visibility: hidden; display:none" class="icon ic_ajax_clock_small throbber"></div><div id="pma_navigation_tree" class="list_container synced highlight" style="height: 686.034px;"><div class="pma_quick_warp"><div class="drop_list"><span title="Recent tables" class="drop_button">Recent</span><ul id="pma_recent_list"><li class="warp_link">There are no recent tables.</li></ul></div><div class="drop_list"><span title="Favorite tables" class="drop_button">Favorites</span><ul id="pma_favorite_list"><li class="warp_link">There are no favorite tables.</li></ul></div><div class="clearfloat"></div></div><div class="clearfloat"></div><ul><li class="fast_filter db_fast_filter"><form class="ajax fast_filter"><input type="hidden" name="pos" value="0"><input type="hidden" name="token" value="Ser,d(iFRKOL\4az"><input class="searchClause" type="text" name="searchClause" accesskey="q" placeholder="Type to filter these, Enter to search all"><span title="Clear fast filter">X</span></form></li><!-- CONTROLS START --><li id="navigation_controls_outer" class=""><div id="navigation_controls"><a href="#" id="pma_navigation_collapse" title="Collapse all"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Collapse all" alt="Collapse all" class="icon ic_s_collapseall"></a><a href="#" id="pma_navigation_sync" title="Unlink from main panel"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Unlink from main panel" alt="Unlink from main panel" class="icon ic_s_link"></a></div></li><!-- CONTROLS ENDS --></ul><div id="pma_navigation_tree_content" style="height: 620px;"><ul><li class="first new_database italics"><div class="block"><i class="first"></i></div><div class="block "><a href="http://localhost/phpmyadmin/server_databases.php?server=1"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_b_newdb"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/server_databases.php?server=1" title="">New</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.I215c3FsNTAjdGVzdF9kYi1tYXN0ZXI=</span><span class="hide vPath">cm9vdA==.I215c3FsNTAjdGVzdF9kYi1tYXN0ZXI=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=%23mysql50%23test_db-master&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=%23mysql50%23test_db-master" title="Structure">#mysql50#test_db-master</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.YWR2ZW50dXJld29ya3M=</span><span class="hide vPath">cm9vdA==.YWR2ZW50dXJld29ya3M=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=adventureworks&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=adventureworks" title="Structure">adventureworks</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.YmVsYWw=</span><span class="hide vPath">cm9vdA==.YmVsYWw=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=belal&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=belal" title="Structure">belal</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.YnJvZGNhc3RlcnM=</span><span class="hide vPath">cm9vdA==.YnJvZGNhc3RlcnM=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=brodcasters&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=brodcasters" title="Structure">brodcasters</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.YnVja2V0bGlzdA==</span><span class="hide vPath">cm9vdA==.YnVja2V0bGlzdA==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=bucketlist&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=bucketlist" title="Structure">bucketlist</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.Y2xhc3NpY21vZGVscw==</span><span class="hide vPath">cm9vdA==.Y2xhc3NpY21vZGVscw==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=classicmodels&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=classicmodels" title="Structure">classicmodels</a><div class="clearfloat"></div></li><li class="navGroup"><div class="block"><i></i><b></b><a class="expander loaded container" href="#"><span class="hide aPath">cm9vdA==</span><span class="hide vPath">cm9vdA==.ZGI=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_minus"></a></div><i><div class="block "><u><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_b_group"></u></div>&nbsp;db</i><div class="clearfloat"></div><div style="" class="list_container"><ul><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfYWJzZW5zaQ==</span><span class="hide vPath">cm9vdA==.ZGI=.YWJzZW5zaQ==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_absensi&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_absensi" title="Structure">db_absensi</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfYXBwX2NhbGVn</span><span class="hide vPath">cm9vdA==.ZGI=.YXBwX2NhbGVn</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_app_caleg&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_app_caleg" title="Structure">db_app_caleg</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfYmFyYW5naGlsYW5n</span><span class="hide vPath">cm9vdA==.ZGI=.YmFyYW5naGlsYW5n</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_baranghilang&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_baranghilang" title="Structure">db_baranghilang</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfY29iYQ==</span><span class="hide vPath">cm9vdA==.ZGI=.Y29iYQ==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_coba&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_coba" title="Structure">db_coba</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfZGF0YV9jYWxlZw==</span><span class="hide vPath">cm9vdA==.ZGI=.ZGF0YV9jYWxlZw==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_data_caleg&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_data_caleg" title="Structure">db_data_caleg</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfaG90ZWw=</span><span class="hide vPath">cm9vdA==.ZGI=.aG90ZWw=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_hotel&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_hotel" title="Structure">db_hotel</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfaW5kb25lc2lh</span><span class="hide vPath">cm9vdA==.ZGI=.aW5kb25lc2lh</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_indonesia&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_indonesia" title="Structure">db_indonesia</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfam9pbg==</span><span class="hide vPath">cm9vdA==.ZGI=.am9pbg==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_join&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_join" title="Structure">db_join</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfa2FzaXI=</span><span class="hide vPath">cm9vdA==.ZGI=.a2FzaXI=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_kasir&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_kasir" title="Structure">db_kasir</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfbWFoYXNpc3dh</span><span class="hide vPath">cm9vdA==.ZGI=.bWFoYXNpc3dh</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_mahasiswa&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_mahasiswa" title="Structure">db_mahasiswa</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcGFya2lyYW4=</span><span class="hide vPath">cm9vdA==.ZGI=.cGFya2lyYW4=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_parkiran&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_parkiran" title="Structure">db_parkiran</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcGVtaWx1X3JheWE=</span><span class="hide vPath">cm9vdA==.ZGI=.cGVtaWx1X3JheWE=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_pemilu_raya&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_pemilu_raya" title="Structure">db_pemilu_raya</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcGVtaW5qYW1hbi0y</span><span class="hide vPath">cm9vdA==.ZGI=.cGVtaW5qYW1hbi0y</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_peminjaman-2&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_peminjaman-2" title="Structure">db_peminjaman-2</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcGVuanVhbGFu</span><span class="hide vPath">cm9vdA==.ZGI=.cGVuanVhbGFu</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_penjualan&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_penjualan" title="Structure">db_penjualan</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcGV0dWdhcw==</span><span class="hide vPath">cm9vdA==.ZGI=.cGV0dWdhcw==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_petugas&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_petugas" title="Structure">db_petugas</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcG9z</span><span class="hide vPath">cm9vdA==.ZGI=.cG9z</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_pos&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_pos" title="Structure">db_pos</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcHJvamVrX2JhcnU=</span><span class="hide vPath">cm9vdA==.ZGI=.cHJvamVrX2JhcnU=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_projek_baru&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_projek_baru" title="Structure">db_projek_baru</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcHNi</span><span class="hide vPath">cm9vdA==.ZGI=.cHNi</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_psb&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_psb" title="Structure">db_psb</a><div class="clearfloat"></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcmVrYXA=</span><span class="hide vPath">cm9vdA==.ZGI=.cmVrYXA=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_rekap&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_rekap" title="Structure">db_rekap</a><div class="clearfloat"></div></li><li class="database database selected"><div class="block"><i></i><b></b><a class="expander loaded" href="#"><span class="hide aPath">cm9vdA==.ZGJfcmVzdG9yYW4=</span><span class="hide vPath">cm9vdA==.ZGI=.cmVzdG9yYW4=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_minus" style=""></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_restoran&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_restoran" title="Structure">db_restoran</a><div class="clearfloat"></div><div class="list_container hide" style="display: block;"><ul><li class="new_table italics"><div class="block"><i></i><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_create.php?server=1&amp;db=db_restoran"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="New" alt="New" class="icon ic_b_table_add"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/tbl_create.php?server=1&amp;db=db_restoran" title="">New</a><div class="clearfloat"></div></li><li class="table"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcmVzdG9yYW4=.dGFibGVz.dGJfa2F0ZWdvcmk=</span><span class="hide vPath">cm9vdA==.ZGI=.cmVzdG9yYW4=.VGFibGVz.dGJfa2F0ZWdvcmk=</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=db_restoran&amp;table=tb_kategori"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=db_restoran&amp;table=tb_kategori&amp;pos=0" title="Browse">tb_kategori</a><span class="navItemControls"><a href="http://localhost/phpmyadmin/navigation.php?hideNavItem=1&amp;itemType=table&amp;itemName=tb_kategori&amp;dbName=db_restoran" class="hideNavItem ajax"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Hide" alt="Hide" class="icon ic_hide"></a></span><div class="clearfloat"></div></li><li class="table"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcmVzdG9yYW4=.dGFibGVz.dGJfbWVudQ==</span><span class="hide vPath">cm9vdA==.ZGI=.cmVzdG9yYW4=.VGFibGVz.dGJfbWVudQ==</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=db_restoran&amp;table=tb_menu"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=db_restoran&amp;table=tb_menu&amp;pos=0" title="Browse">tb_menu</a><span class="navItemControls"><a href="http://localhost/phpmyadmin/navigation.php?hideNavItem=1&amp;itemType=table&amp;itemName=tb_menu&amp;dbName=db_restoran" class="hideNavItem ajax"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Hide" alt="Hide" class="icon ic_hide"></a></span><div class="clearfloat"></div></li><li class="table"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcmVzdG9yYW4=.dGFibGVz.dGJfdHJhbnNha3Np</span><span class="hide vPath">cm9vdA==.ZGI=.cmVzdG9yYW4=.VGFibGVz.dGJfdHJhbnNha3Np</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=db_restoran&amp;table=tb_transaksi"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=db_restoran&amp;table=tb_transaksi&amp;pos=0" title="Browse">tb_transaksi</a><span class="navItemControls"><a href="http://localhost/phpmyadmin/navigation.php?hideNavItem=1&amp;itemType=table&amp;itemName=tb_transaksi&amp;dbName=db_restoran" class="hideNavItem ajax"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Hide" alt="Hide" class="icon ic_hide"></a></span><div class="clearfloat"></div></li><li class="last table"><div class="block"><i></i><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfcmVzdG9yYW4=.dGFibGVz.dGJfdXNlcg==</span><span class="hide vPath">cm9vdA==.ZGI=.cmVzdG9yYW4=.VGFibGVz.dGJfdXNlcg==</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=db_restoran&amp;table=tb_user"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=db_restoran&amp;table=tb_user&amp;pos=0" title="Browse">tb_user</a><span class="navItemControls"><a href="http://localhost/phpmyadmin/navigation.php?hideNavItem=1&amp;itemType=table&amp;itemName=tb_user&amp;dbName=db_restoran" class="hideNavItem ajax"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Hide" alt="Hide" class="icon ic_hide"></a></span><div class="clearfloat"></div></li></ul></div></li><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfc2lhaw==</span><span class="hide vPath">cm9vdA==.ZGI=.c2lhaw==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_siak&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_siak" title="Structure">db_siak</a><div class="clearfloat"></div></li><li class="database last database"><div class="block"><i></i><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJfc2lwcm95ZWs=</span><span class="hide vPath">cm9vdA==.ZGI=.c2lwcm95ZWs=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=db_siproyek&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=db_siproyek" title="Structure">db_siproyek</a><div class="clearfloat"></div></li></ul></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGJiYXJhbmc=</span><span class="hide vPath">cm9vdA==.ZGJiYXJhbmc=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=dbbarang&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=dbbarang" title="Structure">dbbarang</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZGphbmdvY3J1ZA==</span><span class="hide vPath">cm9vdA==.ZGphbmdvY3J1ZA==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=djangocrud&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=djangocrud" title="Structure">djangocrud</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.ZHZkcmVudGFs</span><span class="hide vPath">cm9vdA==.ZHZkcmVudGFs</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=dvdrental&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=dvdrental" title="Structure">dvdrental</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.aW5kb25lc2lh</span><span class="hide vPath">cm9vdA==.aW5kb25lc2lh</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=indonesia&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=indonesia" title="Structure">indonesia</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h</span><span class="hide vPath">cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=information_schema&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=information_schema" title="Structure">information_schema</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.aV9tYWhhc2lzd2E=</span><span class="hide vPath">cm9vdA==.aV9tYWhhc2lzd2E=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=i_mahasiswa&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=i_mahasiswa" title="Structure">i_mahasiswa</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.bGF0aWhhbjE=</span><span class="hide vPath">cm9vdA==.bGF0aWhhbjE=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=latihan1&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=latihan1" title="Structure">latihan1</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.bGVhcm5pbmdzcWwtbXlzcWwtc2NyaXB0</span><span class="hide vPath">cm9vdA==.bGVhcm5pbmdzcWwtbXlzcWwtc2NyaXB0</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=learningsql-mysql-script&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=learningsql-mysql-script" title="Structure">learningsql-mysql-script</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.IGxvYWRfc2FtcGxl</span><span class="hide vPath">cm9vdA==.IGxvYWRfc2FtcGxl</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=+load_sample&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=+load_sample" title="Structure"> load_sample</a><div class="clearfloat"></div></li><li class="navGroup"><div class="block"><i></i><b></b><a class="expander loaded container" href="#"><span class="hide aPath">cm9vdA==</span><span class="hide vPath">cm9vdA==.bXk=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><i><div class="block "><u><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_b_group"></u></div>&nbsp;my</i><div class="clearfloat"></div><div style="display: none;" class="list_container"><ul><li class="database database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.bXlfY3J1ZHB5dGhvbg==</span><span class="hide vPath">cm9vdA==.bXk=.Y3J1ZHB5dGhvbg==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=my_crudpython&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=my_crudpython" title="Structure">my_crudpython</a><div class="clearfloat"></div></li><li class="database last database"><div class="block"><i></i><a class="expander" href="#"><span class="hide aPath">cm9vdA==.bXlfcHl0aG9u</span><span class="hide vPath">cm9vdA==.bXk=.cHl0aG9u</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=my_python&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=my_python" title="Structure">my_python</a><div class="clearfloat"></div></li></ul></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.bXlzcWw=</span><span class="hide vPath">cm9vdA==.bXlzcWw=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=mysql&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=mysql" title="Structure">mysql</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.bXlzcWxzYW1wbGVkYXRhYmFzZQ==</span><span class="hide vPath">cm9vdA==.bXlzcWxzYW1wbGVkYXRhYmFzZQ==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=mysqlsampledatabase&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=mysqlsampledatabase" title="Structure">mysqlsampledatabase</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h</span><span class="hide vPath">cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=performance_schema&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=performance_schema" title="Structure">performance_schema</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cGVycHVzdF9jb21ibw==</span><span class="hide vPath">cm9vdA==.cGVycHVzdF9jb21ibw==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=perpust_combo&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=perpust_combo" title="Structure">perpust_combo</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cGhpX21pbmltYXJ0</span><span class="hide vPath">cm9vdA==.cGhpX21pbmltYXJ0</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=phi_minimart&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=phi_minimart" title="Structure">phi_minimart</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cGhwbXlhZG1pbg==</span><span class="hide vPath">cm9vdA==.cGhwbXlhZG1pbg==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=phpmyadmin&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=phpmyadmin" title="Structure">phpmyadmin</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHJvamVrX2JhcnU=</span><span class="hide vPath">cm9vdA==.cHJvamVrX2JhcnU=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=projek_baru&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=projek_baru" title="Structure">projek_baru</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHVibGlj</span><span class="hide vPath">cm9vdA==.cHVibGlj</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=public&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=public" title="Structure">public</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHl0aG9uX215c3Fs</span><span class="hide vPath">cm9vdA==.cHl0aG9uX215c3Fs</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=python_mysql&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=python_mysql" title="Structure">python_mysql</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cXVpY2s=</span><span class="hide vPath">cm9vdA==.cXVpY2s=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=quick&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=quick" title="Structure">quick</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.c2FtcGxlLW1vZGVs</span><span class="hide vPath">cm9vdA==.c2FtcGxlLW1vZGVs</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=sample-model&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=sample-model" title="Structure">sample-model</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.c3BrLXRhbmFtYW4=</span><span class="hide vPath">cm9vdA==.c3BrLXRhbmFtYW4=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=spk-tanaman&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=spk-tanaman" title="Structure">spk-tanaman</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.c3FsX3NhbXBlbF9maWxl</span><span class="hide vPath">cm9vdA==.c3FsX3NhbXBlbF9maWxl</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=sql_sampel_file&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=sql_sampel_file" title="Structure">sql_sampel_file</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.dGVzdA==</span><span class="hide vPath">cm9vdA==.dGVzdA==</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=test&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=test" title="Structure">test</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.dG9rb19vbmxpbmU=</span><span class="hide vPath">cm9vdA==.dG9rb19vbmxpbmU=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=toko_online&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=toko_online" title="Structure">toko_online</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.dWx0cmFfcGVycHVz</span><span class="hide vPath">cm9vdA==.dWx0cmFfcGVycHVz</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=ultra_perpus&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=ultra_perpus" title="Structure">ultra_perpus</a><div class="clearfloat"></div></li><li class="last database"><div class="block"><i></i><a class="expander" href="#"><span class="hide aPath">cm9vdA==.emFkbWluX2Rlc2E=</span><span class="hide vPath">cm9vdA==.emFkbWluX2Rlc2E=</span><span class="hide pos">0</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Expand/Collapse" alt="Expand/Collapse" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=zadmin_desa&amp;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Database operations" alt="Database operations" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=zadmin_desa" title="Structure">zadmin_desa</a><div class="clearfloat"></div></li></ul></div></div><div id="pma_navi_settings_container"></div></div><div class="pma_drop_handler">Drop files here</div><div class="pma_sql_import_status"><h2>SQL upload ( <span class="pma_import_count">0</span> ) <span class="close">x</span><span class="minimize">-</span></h2><div></div></div></div><div id="floating_menubar" style="margin-left: 260px; left: 0px; position: fixed; top: 0px; width: 100%; z-index: 99;"><div id="serverinfo"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_host item"><a href="http://localhost/phpmyadmin/index.php" class="item">Server: 127.0.0.1</a><span class="separator item">&nbsp;»</span><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_db item"><a href="http://localhost/phpmyadmin/db_structure.php?db=db_restoran" class="item">Database: db_restoran</a><div class="clearfloat"></div></div><div id="topmenucontainer" class="menucontainer"><i class="scrollindicator scrollindicator--left"><img alt="" title="" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" class="icon ic_b_left"></i><div class="navigationbar" style="width: auto; overflow: visible;"><ul id="topmenu" class="resizable-menu"><li>
+
+            <a href="http://localhost/phpmyadmin/db_structure.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props">&nbsp;Structure
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_sql.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="SQL" alt="SQL" class="icon ic_b_sql">&nbsp;SQL
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_search.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Search" alt="Search" class="icon ic_b_search">&nbsp;Search
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_multi_table_query.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Query" alt="Query" class="icon ic_s_db">&nbsp;Query
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_export.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Export" alt="Export" class="icon ic_b_export">&nbsp;Export
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_import.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Import" alt="Import" class="icon ic_b_import">&nbsp;Import
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_operations.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Operations" alt="Operations" class="icon ic_b_tblops">&nbsp;Operations
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/server_privileges.php?db=db_restoran&amp;checkprivsdb=db_restoran&amp;viewing_mode=db" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Privileges" alt="Privileges" class="icon ic_s_rights">&nbsp;Privileges
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_routines.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Routines" alt="Routines" class="icon ic_b_routines">&nbsp;Routines
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_events.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Events" alt="Events" class="icon ic_b_events">&nbsp;Events
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_triggers.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Triggers" alt="Triggers" class="icon ic_b_triggers">&nbsp;Triggers
+            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/db_tracking.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Tracking" alt="Tracking" class="icon ic_eye">&nbsp;Tracking
+            </a>
+        </li>
+
+
+<li class="submenu shown active" style=""><a href="#" class="nowrap tabactive"><img alt="" title="" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" class="icon ic_b_more">More</a><ul class="notonly"><li class="active">
+
+            <a href="http://localhost/phpmyadmin/db_designer.php?db=db_restoran" id="designer_tab" class="tabactive">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Designer" alt="Designer" class="icon ic_b_relations">&nbsp;Designer
+            </a>
+        </li><li>
+
+            <a href="http://localhost/phpmyadmin/db_central_columns.php?db=db_restoran" class="tab">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Central columns" alt="Central columns" class="icon ic_centralColumns">&nbsp;Central columns
+            </a>
+        </li></ul></li><div class="clearfloat"></div></ul></div>
+<i class="scrollindicator scrollindicator--right"><img alt="" title="" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" class="icon ic_b_right"></i></div>
+</div>
+<span id="page_nav_icons"><span id="lock_page_icon"></span><span id="page_settings_icon" style="display: none;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Page-related settings" alt="Page-related settings" class="icon ic_s_cog"></span><a id="goto_pagetop" href="#"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Click on the bar to scroll to top of page" alt="Click on the bar to scroll to top of page" class="icon ic_s_top"></a></span><div id="pma_console_container">
+    <div id="pma_console" style="margin-left: 260px;">
+                <div class="toolbar collapsed">
+                    <div class="switch_button console_switch">
+            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="SQL Query Console" alt="SQL Query Console" class="icon ic_console">
+            <span>Console</span>
+        </div>
+                            <div class="button clear">
+            
+            <span>Clear</span>
+        </div>
+                            <div class="button history">
+            
+            <span>History</span>
+        </div>
+                            <div class="button options">
+            
+            <span>Options</span>
+        </div>
+                            <div class="button bookmarks">
+            
+            <span>Bookmarks</span>
+        </div>
+                            <div class="button debug hide">
+            
+            <span>Debug SQL</span>
+        </div>
+            </div>
+                <div class="content" style="height: 92px; margin-bottom: -98.3667px; display: none;">
+            <div class="console_message_container">
+                <div class="message welcome binded">
+                    <span id="instructions-0">
+                        Press Ctrl+Enter to execute query                    </span>
+                    <span class="hide" id="instructions-1">
+                        Press Enter to execute query                    </span>
+                </div>
+                            <div class="message collapsed binded select successed" msgid="180880935944" targetdb="db_restoran" targettable="tb_kategori"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">SELECT</span> * <span class="cm-keyword">FROM</span> `tb_kategori`</div></div><div class="message collapsed binded successed" msgid="442412206702" targetdb="db_restoran" targettable="tb_kategori"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">ALTER</span> <span class="cm-keyword">TABLE</span> `tb_kategori` ADD PRIMARY KEY( `kd_kategori`);</div></div><div class="message collapsed binded select successed" msgid="531074579696" targetdb="db_restoran" targettable="tb_menu"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">SELECT</span> * <span class="cm-keyword">FROM</span> `tb_menu`</div></div><div class="message collapsed binded select successed" msgid="330627866266" targetdb="db_restoran" targettable="tb_transaksi"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">SELECT</span> * <span class="cm-keyword">FROM</span> `tb_transaksi`</div></div><div class="message collapsed binded successed" msgid="761467666224" targetdb="db_restoran" targettable="tb_transaksi"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">ALTER</span> <span class="cm-keyword">TABLE</span> `tb_transaksi` ADD PRIMARY KEY( `kd_transaksi`);</div></div><div class="message collapsed binded select successed" msgid="754189288563" targetdb="db_restoran" targettable="tb_user"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">SELECT</span> * <span class="cm-keyword">FROM</span> `tb_user`</div></div><div class="message collapsed binded successed" msgid="637556328456" targetdb="db_restoran" targettable="tb_user"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">ALTER</span> <span class="cm-keyword">TABLE</span> `tb_user` ADD PRIMARY KEY( `kd_user`);</div></div><div class="message collapsed binded select successed" msgid="537364831560" targetdb="db_restoran" targettable="tb_menu"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">SELECT</span> * <span class="cm-keyword">FROM</span> `tb_menu`</div></div><div class="message collapsed binded successed" msgid="683975896305" targetdb="db_restoran" targettable="tb_menu"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">ALTER</span> <span class="cm-keyword">TABLE</span> `tb_menu` ADD INDEX( `kd_kategori`);</div></div><div class="message collapsed binded successed" msgid="465270887123" targetdb="db_restoran" targettable="tb_menu"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">ALTER</span> <span class="cm-keyword">TABLE</span> `tb_menu` ADD INDEX( `kd_menu`);</div></div><div class="message collapsed binded select successed" msgid="186530294165" targetdb="db_restoran" targettable="tb_kategori"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">SELECT</span> * <span class="cm-keyword">FROM</span> `tb_kategori`</div></div><div class="message collapsed binded successed" msgid="988234980798" targetdb="db_restoran" targettable="tb_kategori"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">ALTER</span> <span class="cm-keyword">TABLE</span> `tb_kategori` ADD INDEX( `kd_kategori`);</div></div><div class="message collapsed binded select successed" msgid="482417216602" targetdb="db_restoran" targettable="tb_transaksi"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">SELECT</span> * <span class="cm-keyword">FROM</span> `tb_transaksi`</div></div><div class="message collapsed binded successed" msgid="288000748183" targetdb="db_restoran" targettable="tb_transaksi"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">ALTER</span> <span class="cm-keyword">TABLE</span> `tb_transaksi` ADD INDEX( `kd_transaksi`);</div></div><div class="message collapsed binded successed" msgid="192686722855" targetdb="db_restoran" targettable="tb_transaksi"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">ALTER</span> <span class="cm-keyword">TABLE</span> `tb_transaksi` ADD INDEX( `kd_menu`);</div></div><div class="message collapsed binded successed" msgid="666208561172" targetdb="db_restoran" targettable="tb_transaksi"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">ALTER</span> <span class="cm-keyword">TABLE</span> `tb_transaksi` ADD INDEX( `kd_user`);</div></div><div class="message collapsed binded select successed" msgid="355110975790" targetdb="db_restoran" targettable="tb_user"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">SELECT</span> * <span class="cm-keyword">FROM</span> `tb_user`</div></div><div class="message collapsed binded successed" msgid="570093738027" targetdb="db_restoran" targettable="tb_user"><div class="action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">ALTER</span> <span class="cm-keyword">TABLE</span> `tb_user` ADD INDEX( `kd_user`);</div></div></div><!-- console_message_container -->
+            <div class="query_input">
+                <span class="console_query_input"><div class="CodeMirror cm-s-pma CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 16px;"><textarea style="position: absolute; bottom: -1em; padding: 0px; width: 1px; height: 1em; outline: currentcolor none medium;" autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" wrap="off"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" draggable="true"><div class="CodeMirror-sizer" style="margin-left: 16px; margin-bottom: -19px; border-right-width: 11px; min-height: 16px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div style="position: relative; outline: currentcolor none medium;" role="presentation"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 0px; top: 0px; height: 15.6333px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 11px; width: 1px; border-bottom: 0px solid transparent; top: 16px;"></div><div class="CodeMirror-gutters" style="height: 27px;"><div class="CodeMirror-gutter CodeMirror-lint-markers"></div></div></div></div></span>
+            </div>
+        </div><!-- message end -->
+                <div class="mid_layer"></div>
+                <div class="card ungrouped" id="debug_console">
+            <div class="toolbar ">
+                    <div class="button order order_asc active">
+            
+            <span>ascending</span>
+        </div>
+                            <div class="button order order_desc">
+            
+            <span>descending</span>
+        </div>
+                            <div class="text">
+            
+            <span>Order:</span>
+        </div>
+                            <div class="switch_button">
+            
+            <span>Debug SQL</span>
+        </div>
+                            <div class="button order_by sort_count">
+            
+            <span>Count</span>
+        </div>
+                            <div class="button order_by sort_exec active">
+            
+            <span>Execution order</span>
+        </div>
+                            <div class="button order_by sort_time">
+            
+            <span>Time taken</span>
+        </div>
+                            <div class="text">
+            
+            <span>Order by:</span>
+        </div>
+                            <div class="button group_queries">
+            
+            <span>Group queries</span>
+        </div>
+                            <div class="button ungroup_queries">
+            
+            <span>Ungroup queries</span>
+        </div>
+            </div>
+            <div class="content debug" style="height: 92px;">
+                <div class="message welcome binded">Some error occurred while getting SQL debug info.</div>
+                <div class="debugLog"></div>
+            </div> <!-- Content -->
+            <div class="templates">
+                <div class="debug_query action_content">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action dbg_show_trace">
+            Show trace
+                    </span>
+                            <span class="action dbg_hide_trace">
+            Hide trace
+                    </span>
+                            <span class="text count hide">
+            Count
+                    </span>
+                            <span class="text time">
+            Time taken
+                    </span>
+            </div>
+            </div> <!-- Template -->
+        </div> <!-- Debug SQL card -->
+                    <div class="card" id="pma_bookmarks">
+                <div class="toolbar ">
+                    <div class="switch_button">
+            
+            <span>Bookmarks</span>
+        </div>
+                            <div class="button refresh">
+            
+            <span>Refresh</span>
+        </div>
+                            <div class="button add">
+            
+            <span>Add</span>
+        </div>
+            </div>
+                <div class="content bookmark" style="height: 92px;">
+                    <div class="message welcome binded">
+    <span>No bookmarks</span>
+</div>
+
+                </div>
+                <div class="mid_layer"></div>
+                <div class="card add">
+                    <div class="toolbar ">
+                    <div class="switch_button">
+            
+            <span>Add bookmark</span>
+        </div>
+            </div>
+                    <div class="content add_bookmark" style="height: 92px;">
+                        <div class="options">
+                            <label>
+                                Label: <input type="text" name="label">
+                            </label>
+                            <label>
+                                Target database: <input type="text" name="targetdb">
+                            </label>
+                            <label>
+                                <input type="checkbox" name="shared">Share this bookmark                            </label>
+                            <button type="submit" name="submit">OK</button>
+                        </div> <!-- options -->
+                        <div class="query_input">
+                            <span class="bookmark_add_input"><div class="CodeMirror cm-s-pma CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 16px;"><textarea style="position: absolute; bottom: -1em; padding: 0px; width: 1px; height: 1em; outline: currentcolor none medium;" autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" wrap="off"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" draggable="true"><div class="CodeMirror-sizer" style="margin-left: 16px; margin-bottom: -19px; border-right-width: 11px; min-height: 16px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div style="position: relative; outline: currentcolor none medium;" role="presentation"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 0px; top: 0px; height: 15.6333px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 11px; width: 1px; border-bottom: 0px solid transparent; top: 16px;"></div><div class="CodeMirror-gutters" style="height: 27px;"><div class="CodeMirror-gutter CodeMirror-lint-markers"></div></div></div></div></span>
+                        </div>
+                    </div>
+                </div> <!-- Add bookmark card -->
+            </div> <!-- Bookmarks card -->
+                        <div class="card" id="pma_console_options">
+            <div class="toolbar ">
+                    <div class="switch_button">
+            
+            <span>Options</span>
+        </div>
+                            <div class="button default">
+            
+            <span>Set default</span>
+        </div>
+            </div>
+            <div class="content" style="height: 92px;">
+                <label>
+                    <input type="checkbox" name="always_expand">Always expand query messages                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="start_history">Show query history at start                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="current_query" checked="checked">Show current browsing query                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="enter_executes">
+                        Execute queries on Enter and insert new line 
+with Shift + Enter. To make this permanent, view settings.              
+  </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="dark_theme">Switch to dark theme                </label>
+                <br>
+            </div>
+        </div> <!-- Options card -->
+        <div class="templates">
+                        <div class="query_actions">
+                    <span class="action collapse">
+            Collapse
+                    </span>
+                            <span class="action expand">
+            Expand
+                    </span>
+                            <span class="action requery">
+            Requery
+                    </span>
+                            <span class="action edit">
+            Edit
+                    </span>
+                            <span class="action explain">
+            Explain
+                    </span>
+                            <span class="action profiling">
+            Profiling
+                    </span>
+                            <span class="action bookmark">
+            Bookmark
+                    </span>
+                            <span class="text failed">
+            Query failed
+                    </span>
+                            <span class="text targetdb">
+            Database
+                    </span>
+                            <span class="text query_time">
+            Queried time
+                    </span>
+            </div>
+        </div>
+    </div> <!-- #console end -->
+</div> <!-- #console_container end -->
+<div id="page_content" style="margin-left: 3px;"><div id="script_server" class="hide">1</div><div id="script_db" class="hide">db_restoran</div><div id="script_tables" class="hide">{"j_tabs":{"db_restoran.tb_kategori":1,"db_restoran.tb_menu":1,"db_restoran.tb_transaksi":1,"db_restoran.tb_user":1},"h_tabs":{"db_restoran.tb_kategori":1,"db_restoran.tb_menu":1,"db_restoran.tb_transaksi":1,"db_restoran.tb_user":1}}</div><div id="script_contr" class="hide">[{"tb_menu_ibfk_1":{"db_restoran.tb_menu":{"kd_kategori":["db_restoran.tb_kategori","kd_kategori"]}}},{"tb_transaksi_ibfk_1":{"db_restoran.tb_transaksi":{"kd_menu":["db_restoran.tb_menu","kd_menu"]}}},{"tb_transaksi_ibfk_2":{"db_restoran.tb_transaksi":{"kd_user":["db_restoran.tb_user","kd_user"]}}}]</div><div id="script_display_field" class="hide">{"tb_kategori":"kategori","tb_menu":"menu","tb_user":"nama"}</div><div id="script_display_page" class="hide">-1</div><div id="designer_tables_enabled" class="hide">1</div>    <div id="name-panel">
+        <span id="page_name">
+            Untitled
+        </span>
+        <span id="saved_state">*</span>
+    </div>
+<div class="designer_header side-menu" id="side_menu">
+    <a class="M_butt" id="key_Show_left_menu" href="#">
+        <img title="Show/Hide tables list" alt="v" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/downarrow2_m.png" data-down="./themes/pmahomme/img/designer/downarrow2_m.png" data-up="./themes/pmahomme/img/designer/uparrow2_m.png">
+        <span class="hide hidable" style="display: none;">
+            Show/Hide tables list        </span>
+    </a>
+    <a href="#" id="toggleFullscreen" class="M_butt">
+        <img title="View in fullscreen" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/viewInFullscreen.png" data-enter="./themes/pmahomme/img/designer/viewInFullscreen.png" data-exit="./themes/pmahomme/img/designer/exitFullscreen.png">
+        <span class="hide hidable" data-exit="Exit fullscreen" data-enter="View in fullscreen" style="display: none;">
+            View in fullscreen        </span>
+    </a>
+    <a href="#" id="addOtherDbTables" class="M_butt">
+        <img title="Add tables from other databases" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/other_table.png">
+        <span class="hide hidable" style="display: none;">
+            Add tables from other databases        </span>
+    </a>
+            <a id="newPage" href="#" class="M_butt">
+            <img title="New page" alt="" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/page_add.png">
+            <span class="hide hidable" style="display: none;">
+                New page            </span>
+        </a>
+        <a href="#" id="editPage" class="M_butt ajax">
+            <img title="Open page" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/page_edit.png">
+            <span class="hide hidable" style="display: none;">
+                Open page            </span>
+        </a>
+        <a href="#" id="savePos" class="M_butt">
+            <img title="Save page" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/save.png">
+            <span class="hide hidable" style="display: none;">
+                Save page            </span>
+        </a>
+        <a href="#" id="SaveAs" class="M_butt ajax">
+            <img title="Save page as" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/save_as.png">
+            <span class="hide hidable" style="display: none;">
+                Save page as            </span>
+        </a>
+        <a href="#" id="delPages" class="M_butt ajax">
+            <img title="Delete pages" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/page_delete.png">
+            <span class="hide hidable" style="display: none;">
+                Delete pages            </span>
+        </a>
+        <a href="#" id="StartTableNew" class="M_butt">
+            <img title="Create table" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/table.png">
+            <span class="hide hidable" style="display: none;">
+                Create table            </span>
+        </a>
+        <a href="#" class="M_butt" id="rel_button">
+            <img title="Create relationship" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/relation.png">
+            <span class="hide hidable" style="display: none;">
+                Create relationship            </span>
+        </a>
+        <a href="#" class="M_butt" id="display_field_button">
+            <img title="Choose column to display" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/display_field.png">
+            <span class="hide hidable" style="display: none;">
+                Choose column to display            </span>
+        </a>
+        <a href="#" id="reloadPage" class="M_butt">
+            <img title="Reload" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/reload.png">
+            <span class="hide hidable" style="display: none;">
+                Reload            </span>
+        </a>
+        <a href="http://localhost/phpmyadmin/doc/html/faq.html#faq6-31" target="documentation" class="M_butt">
+            <img title="Help" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/help.png">
+            <span class="hide hidable" style="display: none;">
+                Help            </span>
+        </a>
+        <a href="#" class="M_butt" id="angular_direct_button">
+        <img title="Angular links / Direct links" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/ang_direct.png">
+        <span class="hide hidable" style="display: none;">
+            Angular links / Direct links        </span>
+    </a>
+    <a href="#" class="M_butt" id="grid_button">
+        <img title="Snap to grid" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/grid.png">
+        <span class="hide hidable" style="display: none;">
+            Snap to grid        </span>
+    </a>
+    <a href="#" class="M_butt" id="key_SB_all">
+        <img title="Small/Big All" alt="v" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/downarrow1.png" data-down="./themes/pmahomme/img/designer/downarrow1.png" data-right="./themes/pmahomme/img/designer/rightarrow1.png">
+        <span class="hide hidable" style="display: none;">
+            Small/Big All        </span>
+    </a>
+    <a href="#" id="SmallTabInvert" class="M_butt">
+        <img title="Toggle small/big" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/bottom.png">
+        <span class="hide hidable" style="display: none;">
+            Toggle small/big        </span>
+    </a>
+    <a href="#" id="relLineInvert" class="M_butt_Selected_down">
+        <img title="Toggle relationship lines" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/toggle_lines.png">
+        <span class="hide hidable" style="display: none;">
+            Toggle relationship lines        </span>
+    </a>
+            <a href="#" id="exportPages" class="M_butt">
+            <img title="Export schema" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/export.png">
+            <span class="hide hidable" style="display: none;">
+                Export schema            </span>
+        </a>
+        <a href="#" class="M_butt" id="key_Left_Right">
+        <img title="Move Menu" alt="&gt;" data-right="./themes/pmahomme/img/designer/2leftarrow_m.png" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/2rightarrow_m.png">
+        <span class="hide hidable" style="display: none;">
+            Move Menu        </span>
+    </a>
+    <a href="#" class="M_butt" id="pin_Text">
+        <img title="Pin text" alt="&gt;" data-right="./themes/pmahomme/img/designer/anchor.png" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/anchor.png">
+        <span class="hide hidable" style="display: none;">
+            Pin text        </span>
+    </a>
+</div>
+<div id="canvas_outer"><form action="" id="container-form" method="post" name="form1"><div id="osn_tab" style="width: 831px; height: 534px;">
+    <canvas class="designer" id="canvas" width="828" height="531" style="display: inline-block;"></canvas>
+</div>
+<div id="layer_menu" class="hide" style="top: -1000px;">
+    <div class="center">
+        <a href="#" class="M_butt" target="_self">
+            <img title="Hide/Show all" alt="v" id="key_HS_all" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/downarrow1.png" data-down="./themes/pmahomme/img/designer/downarrow1.png" data-right="./themes/pmahomme/img/designer/rightarrow1.png">
+        </a>
+        <a href="#" class="M_butt" target="_self">
+            <img alt="v" id="key_HS" title="Hide/Show tables with no relationship" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/downarrow2.png" data-down="./themes/pmahomme/img/designer/downarrow2.png" data-right="./themes/pmahomme/img/designer/rightarrow2.png">
+        </a>
+    </div>
+    <div id="id_scroll_tab" class="scroll_tab">
+        <table style="padding-left: 3px;" width="100%">
+                            <tbody><tr>
+                    <td title="Structure" class="L_butt2_1" width="1px">
+                        <img alt="" table_name="tb_kategori" class="scroll_tab_struct" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_db_restoran.tb_kategori" style="margin:0;" type="checkbox" value="db_restoran.tb_kategori" checked="checked">
+                    </td>
+                    <td class="designer_Tabs" designer_url_table_name="db_restoran.tb_kategori">
+                        db_restoran.tb_kategori
+                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" class="L_butt2_1" width="1px">
+                        <img alt="" table_name="tb_menu" class="scroll_tab_struct" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_db_restoran.tb_menu" style="margin:0;" type="checkbox" value="db_restoran.tb_menu" checked="checked">
+                    </td>
+                    <td class="designer_Tabs" designer_url_table_name="db_restoran.tb_menu">
+                        db_restoran.tb_menu
+                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" class="L_butt2_1" width="1px">
+                        <img alt="" table_name="tb_transaksi" class="scroll_tab_struct" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_db_restoran.tb_transaksi" style="margin:0;" type="checkbox" value="db_restoran.tb_transaksi" checked="checked">
+                    </td>
+                    <td class="designer_Tabs" designer_url_table_name="db_restoran.tb_transaksi">
+                        db_restoran.tb_transaksi
+                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" class="L_butt2_1" width="1px">
+                        <img alt="" table_name="tb_user" class="scroll_tab_struct" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Hide" id="check_vis_db_restoran.tb_user" style="margin:0;" type="checkbox" value="db_restoran.tb_user" checked="checked">
+                    </td>
+                    <td class="designer_Tabs" designer_url_table_name="db_restoran.tb_user">
+                        db_restoran.tb_user
+                    </td>
+                </tr>
+                    </tbody></table>
+    </div>
+        <div class="center">
+        Number of tables: 4
+    </div>
+    <div id="layer_menu_sizer">
+        <div class="floatleft">
+            <img class="icon" data-right="./themes/pmahomme/img/designer/resizeright.png" src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/resize.png">
+        </div>
+    </div>
+</div>
+            <input name="t_x[db_restoran.tb_kategori]" type="hidden" id="t_x_db_restoran.tb_kategori_">
+    <input name="t_y[db_restoran.tb_kategori]" type="hidden" id="t_y_db_restoran.tb_kategori_">
+    <input name="t_v[db_restoran.tb_kategori]" type="hidden" id="t_v_db_restoran.tb_kategori_">
+    <input name="t_h[db_restoran.tb_kategori]" type="hidden" id="t_h_db_restoran.tb_kategori_">
+    <table id="db_restoran.tb_kategori" class="designer_tab" style="position:absolute; left:430px; top:396px; display:block; z-index: 1;" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_db_restoran.tb_kategori" table_name="db_restoran.tb_kategori">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="tb_kategori">
+                    <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_db_restoran.tb_kategori" class="tab_zag nowrap tab_zag_noquery" table_name="db_restoran.tb_kategori" query_set="0">
+                    <span class="owner">
+                        db_restoran
+                    </span>
+                    tb_kategori
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_db_restoran.tb_kategori">
+                                                                        
+                                                                        
+                <tr id="id_tr_tb_kategori.kd_kategori" class="tab_field" click_field_param="tb_kategori,kd_kategori,1,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_kategori.kd_kategori" width="10px">
+                        <div class="nowrap">
+                                                            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/FieldKey_small.png" alt="*">
+                                                        kd_kategori : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_kategori.kategori" class="tab_field_3" click_field_param="tb_kategori,kategori,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_kategori.kategori" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_char.png" alt="*">
+                                                        kategori : varchar(15)
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+            <input name="t_x[db_restoran.tb_menu]" type="hidden" id="t_x_db_restoran.tb_menu_">
+    <input name="t_y[db_restoran.tb_menu]" type="hidden" id="t_y_db_restoran.tb_menu_">
+    <input name="t_v[db_restoran.tb_menu]" type="hidden" id="t_v_db_restoran.tb_menu_">
+    <input name="t_h[db_restoran.tb_menu]" type="hidden" id="t_h_db_restoran.tb_menu_">
+    <table id="db_restoran.tb_menu" class="designer_tab" style="position:absolute; left:611px; top:288px; display:block; z-index: 1;" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_db_restoran.tb_menu" table_name="db_restoran.tb_menu">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="tb_menu">
+                    <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_db_restoran.tb_menu" class="tab_zag nowrap tab_zag_noquery" table_name="db_restoran.tb_menu" query_set="0">
+                    <span class="owner">
+                        db_restoran
+                    </span>
+                    tb_menu
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_db_restoran.tb_menu">
+                                                                        
+                                                                        
+                <tr id="id_tr_tb_menu.kd_menu" class="tab_field" click_field_param="tb_menu,kd_menu,1,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_menu.kd_menu" width="10px">
+                        <div class="nowrap">
+                                                            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/FieldKey_small.png" alt="*">
+                                                        kd_menu : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_menu.menu" class="tab_field_3" click_field_param="tb_menu,menu,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_menu.menu" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_char.png" alt="*">
+                                                        menu : varchar(100)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_menu.jenis" class="tab_field" click_field_param="tb_menu,jenis,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_menu.jenis" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_char.png" alt="*">
+                                                        jenis : varchar(20)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_menu.harga" class="tab_field" click_field_param="tb_menu,harga,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_menu.harga" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_int.png" alt="*">
+                                                        harga : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_menu.status" class="tab_field" click_field_param="tb_menu,status,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_menu.status" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_char.png" alt="*">
+                                                        status : varchar(15)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_menu.foto" class="tab_field" click_field_param="tb_menu,foto,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_menu.foto" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_char.png" alt="*">
+                                                        foto : varchar(100)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_menu.kd_kategori" class="tab_field" click_field_param="tb_menu,kd_kategori,1,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_menu.kd_kategori" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_int.png" alt="*">
+                                                        kd_kategori : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+            <input name="t_x[db_restoran.tb_transaksi]" type="hidden" id="t_x_db_restoran.tb_transaksi_">
+    <input name="t_y[db_restoran.tb_transaksi]" type="hidden" id="t_y_db_restoran.tb_transaksi_">
+    <input name="t_v[db_restoran.tb_transaksi]" type="hidden" id="t_v_db_restoran.tb_transaksi_">
+    <input name="t_h[db_restoran.tb_transaksi]" type="hidden" id="t_h_db_restoran.tb_transaksi_">
+    <table id="db_restoran.tb_transaksi" class="designer_tab" style="position: absolute; left: 233px; top: 198px; display: block; z-index: 1;" data-left="233" data-top="198" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_db_restoran.tb_transaksi" table_name="db_restoran.tb_transaksi">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="tb_transaksi">
+                    <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_db_restoran.tb_transaksi" class="tab_zag" table_name="db_restoran.tb_transaksi" query_set="0">
+                    <span class="owner">
+                        db_restoran
+                    </span>
+                    tb_transaksi
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_db_restoran.tb_transaksi">
+                                                                        
+                                                                        
+                <tr id="id_tr_tb_transaksi.kd_transaksi" class="tab_field" click_field_param="tb_transaksi,kd_transaksi,1,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_transaksi.kd_transaksi" width="10px">
+                        <div class="nowrap">
+                                                            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/FieldKey_small.png" alt="*">
+                                                        kd_transaksi : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_transaksi.kd_menu" class="tab_field" click_field_param="tb_transaksi,kd_menu,1,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_transaksi.kd_menu" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_int.png" alt="*">
+                                                        kd_menu : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_transaksi.jumlah" class="tab_field" click_field_param="tb_transaksi,jumlah,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_transaksi.jumlah" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_int.png" alt="*">
+                                                        jumlah : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_transaksi.subtotal" class="tab_field" click_field_param="tb_transaksi,subtotal,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_transaksi.subtotal" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_int.png" alt="*">
+                                                        subtotal : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_transaksi.tgl_transaksi" class="tab_field" click_field_param="tb_transaksi,tgl_transaksi,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_transaksi.tgl_transaksi" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_date.png" alt="*">
+                                                        tgl_transaksi : timestamp
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_transaksi.kd_user" class="tab_field" click_field_param="tb_transaksi,kd_user,1,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_transaksi.kd_user" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_int.png" alt="*">
+                                                        kd_user : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_transaksi.no_meja" class="tab_field" click_field_param="tb_transaksi,no_meja,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_transaksi.no_meja" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_int.png" alt="*">
+                                                        no_meja : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+            <input name="t_x[db_restoran.tb_user]" type="hidden" id="t_x_db_restoran.tb_user_">
+    <input name="t_y[db_restoran.tb_user]" type="hidden" id="t_y_db_restoran.tb_user_">
+    <input name="t_v[db_restoran.tb_user]" type="hidden" id="t_v_db_restoran.tb_user_">
+    <input name="t_h[db_restoran.tb_user]" type="hidden" id="t_h_db_restoran.tb_user_">
+    <table id="db_restoran.tb_user" class="designer_tab" style="position:absolute; left:523px; top:372px; display:block; z-index: 1;" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Show/hide columns" id="id_hide_tbody_db_restoran.tb_user" table_name="db_restoran.tb_user">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="tb_user">
+                    <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/exec_small.png" title="See table structure">
+                </td>
+                <td id="id_zag_db_restoran.tb_user" class="tab_zag" table_name="db_restoran.tb_user" query_set="0">
+                    <span class="owner">
+                        db_restoran
+                    </span>
+                    tb_user
+                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_db_restoran.tb_user">
+                                                                        
+                                                                        
+                <tr id="id_tr_tb_user.kd_user" class="tab_field" click_field_param="tb_user,kd_user,1,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_user.kd_user" width="10px">
+                        <div class="nowrap">
+                                                            <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/FieldKey_small.png" alt="*">
+                                                        kd_user : int(11)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_user.nama" class="tab_field_3" click_field_param="tb_user,nama,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_user.nama" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_char.png" alt="*">
+                                                        nama : varchar(50)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_user.no_hp" class="tab_field" click_field_param="tb_user,no_hp,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_user.no_hp" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_char.png" alt="*">
+                                                        no_hp : varchar(15)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_user.username" class="tab_field" click_field_param="tb_user,username,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_user.username" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_char.png" alt="*">
+                                                        username : varchar(50)
+                        </div>
+                    </td>
+                                    </tr>
+                                                                        
+                                                                        
+    <tr id="id_tr_tb_user.password" class="tab_field" click_field_param="tb_user,password,0,db_restoran">
+                                        <td colspan="3" id="db_restoran.tb_user.password" width="10px">
+                        <div class="nowrap">
+                                                                        
+                                                                        
+                                                <img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/Field_small_char.png" alt="*">
+                                                        password : varchar(50)
+                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+</form></div><div id="designer_hint"></div><table id="layer_new_relation" class="hide" width="5%" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td class="frams1" width="10px">
+            </td>
+            <td class="frams5" width="99%">
+            </td>
+            <td class="frams2" width="10px">
+                <div class="bor">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="frams8">
+            </td>
+            <td class="input_tab">
+                <table class="center" width="168" cellspacing="0" cellpadding="2">
+                    <thead>
+                        <tr>
+                            <td colspan="2" class="center nowrap">
+                                <strong>
+                                    Create relationship                                </strong>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody id="foreign_relation">
+                        <tr>
+                            <td colspan="2" class="center nowrap">
+                                <strong>
+                                    FOREIGN KEY
+                                </strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="nowrap" width="58">
+                                on delete
+                            </td>
+                            <td width="102">
+                                <select name="on_delete" id="on_delete">
+                                    <option value="nix" selected="selected">
+                                        --
+                                    </option>
+                                    <option value="CASCADE">
+                                        CASCADE
+                                    </option>
+                                    <option value="SET NULL">
+                                        SET NULL
+                                    </option>
+                                    <option value="NO ACTION">
+                                        NO ACTION
+                                    </option>
+                                    <option value="RESTRICT">
+                                        RESTRICT
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="nowrap">
+                                on update
+                            </td>
+                            <td>
+                                <select name="on_update" id="on_update">
+                                    <option value="nix" selected="selected">
+                                        --
+                                    </option>
+                                    <option value="CASCADE">
+                                        CASCADE
+                                    </option>
+                                    <option value="SET NULL">
+                                        SET NULL
+                                    </option>
+                                    <option value="NO ACTION">
+                                        NO ACTION
+                                    </option>
+                                    <option value="RESTRICT">
+                                        RESTRICT
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="center nowrap">
+                                <input type="button" id="ok_new_rel_panel" class="butt" name="Button" value="OK">
+                                <input type="button" id="cancel_new_rel_panel" class="butt" name="Button" value="Cancel">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td class="frams6">
+            </td>
+        </tr>
+        <tr>
+            <td class="frams4">
+                <div class="bor">
+                </div>
+            </td>
+            <td class="frams7">
+            </td>
+            <td class="frams3">
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table id="layer_upd_relation" class="hide" width="5%" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td class="frams1" width="10px">
+            </td>
+            <td class="frams5" width="99%">
+            </td>
+            <td class="frams2" width="10px">
+                <div class="bor">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="frams8">
+            </td>
+            <td class="input_tab">
+                <table class="center" width="100%" cellspacing="0" cellpadding="2">
+                    <tbody><tr>
+                        <td colspan="3" class="center nowrap">
+                            <strong>
+                                Delete relationship                            </strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="center nowrap">
+                            <input id="del_button" name="Button" type="button" class="butt" value="Delete">
+                            <input id="cancel_button" type="button" class="butt" name="Button" value="Cancel">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+            <td class="frams6">
+            </td>
+        </tr>
+        <tr>
+            <td class="frams4">
+                <div class="bor">
+                </div>
+            </td>
+            <td class="frams7">
+            </td>
+            <td class="frams3">
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div id="PMA_disable_floating_menubar"></div></div><div id="selflink" class="print_ignore" style="display: none;"><a href="http://localhost/phpmyadmin/db_designer.php?db=db_restoran&amp;table=&amp;server=1&amp;target=" title="Open new phpMyAdmin window" target="_blank" rel="noopener noreferrer"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Open new phpMyAdmin window" alt="Open new phpMyAdmin window" class="icon ic_window-new"></a></div><div style="position: fixed; height: auto; width: 700px; top: 26.0502px; left: 408.767px;" tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-dialog-buttons ui-draggable ui-resizable" aria-describedby="pma_navigation_settings" aria-labelledby="ui-id-4"><div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle"><span id="ui-id-4" class="ui-dialog-title">Page-related settings</span><button type="button" class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close" title="Close"><span class="ui-button-icon ui-icon ui-icon-closethick"></span><span class="ui-button-icon-space"> </span>Close</button></div><div id="pma_navigation_settings" style="display: block; width: auto; min-height: 138.716px; max-height: 558.616px; height: auto;" class="ui-dialog-content ui-widget-content"><div class="page_settings"><form method="post" action="db_designer.php?db=db_restoran&amp;table=&amp;server=1&amp;target=" class="config-form disableAjax"><input type="hidden" name="tab_hash" value=""><input type="hidden" name="check_page_refresh" id="check_page_refresh" value="1">
+<input type="hidden" name="lang" value="en"><input type="hidden" name="token" value="Ser,d(iFRKOL\4az">
+<input type="hidden" name="submit_save" value="Navi"><input type="hidden" name="token" value="Ser,d(iFRKOL\4az"><ul class="tabs responsivetable">
+
+                                    <li class="active">
+
+            <a href="#Navi_panel">
+            Navigation panel
+            </a>
+        </li>
+                                <li>
+
+            <a href="#Navi_tree">
+            Navigation tree
+            </a>
+        </li>
+                                <li>
+
+            <a href="#Navi_servers">
+            Servers
+            </a>
+        </li>
+                                <li>
+
+            <a href="#Navi_databases">
+            Databases
+            </a>
+        </li>
+                                <li>
+
+            <a href="#Navi_tables">
+            Tables
+            </a>
+        </li>
+            </ul>
+<br><div class="tabs_contents"><fieldset class="optbox" id="Navi_panel" style="">
+<legend>Navigation panel</legend>
+    <p>Customize appearance of the navigation panel.</p>
+<table width="100%" cellspacing="0">
+<tbody><tr><th><label for="ShowDatabasesNavigationAsTree">Show databases navigation as tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowDatabasesNavigationAsTree" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>In the navigation panel, replaces the database tree with a selector</small></th><td><span class="checkbox"><input type="checkbox" name="ShowDatabasesNavigationAsTree" id="ShowDatabasesNavigationAsTree" checked="checked"></span><a class="restore-default hide" href="#ShowDatabasesNavigationAsTree" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLinkWithMainPanel">Link with main panel</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLinkWithMainPanel" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Link with main panel by highlighting the current database or table.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationLinkWithMainPanel" id="NavigationLinkWithMainPanel" checked="checked"></span><a class="restore-default hide" href="#NavigationLinkWithMainPanel" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationDisplayLogo">Display logo</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationDisplayLogo" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Show logo in navigation panel.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationDisplayLogo" id="NavigationDisplayLogo" checked="checked"></span><a class="restore-default hide" href="#NavigationDisplayLogo" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLogoLink">Logo link URL</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLogoLink" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>URL where logo in the navigation panel will point to.</small></th><td><input type="text" class="all85" name="NavigationLogoLink" id="NavigationLogoLink" value="index.php"><a class="restore-default hide" href="#NavigationLogoLink" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLogoLinkWindow">Logo link target</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLogoLinkWindow" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Open the linked page in the main window (<kbd>main</kbd>) or in a new one (<kbd>new</kbd>).</small></th><td><select class="all85" name="NavigationLogoLinkWindow" id="NavigationLogoLinkWindow"><option value="main" selected="selected">main</option><option value="new">new</option></select><a class="restore-default hide" href="#NavigationLogoLinkWindow" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreePointerEnable">Enable highlighting</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreePointerEnable" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Highlight server under the mouse cursor.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreePointerEnable" id="NavigationTreePointerEnable" checked="checked"></span><a class="restore-default hide" href="#NavigationTreePointerEnable" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="FirstLevelNavigationItems">Maximum items on first level</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_FirstLevelNavigationItems" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>The number of items that can be displayed on each page on the first level of the navigation tree.</small></th><td><input type="number" name="FirstLevelNavigationItems" id="FirstLevelNavigationItems" value="100"><a class="restore-default hide" href="#FirstLevelNavigationItems" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDisplayItemFilterMinimum">Minimum number of items to display the filter box</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDisplayItemFilterMinimum" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Defines the minimum number of items (tables, views, routines and events) to display a filter box.</small></th><td><input type="number" name="NavigationTreeDisplayItemFilterMinimum" id="NavigationTreeDisplayItemFilterMinimum" value="30"><a class="restore-default hide" href="#NavigationTreeDisplayItemFilterMinimum" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NumRecentTables">Recently used tables</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NumRecentTables" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Maximum number of recently used tables; set 0 to disable.</small></th><td><input type="number" name="NumRecentTables" id="NumRecentTables" value="10"><a class="restore-default hide" href="#NumRecentTables" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NumFavoriteTables">Favorite tables</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NumFavoriteTables" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Maximum number of favorite tables; set 0 to disable.</small></th><td><input type="number" name="NumFavoriteTables" id="NumFavoriteTables" value="10"><a class="restore-default hide" href="#NumFavoriteTables" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationWidth">Navigation panel width</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationWidth" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Set to 0 to collapse navigation panel.</small></th><td><input type="number" name="NavigationWidth" id="NavigationWidth" class="custom" value="257"><a class="restore-default hide" href="#NavigationWidth" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload"></a></td></tr></tbody></table>
+</fieldset>
+<fieldset class="optbox" id="Navi_tree" style="display: none;">
+<legend>Navigation tree</legend>
+    <p>Customize the navigation tree.</p>
+<table width="100%" cellspacing="0">
+<tbody><tr><th><label for="MaxNavigationItems">Maximum items in branch</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_MaxNavigationItems" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>The number of items that can be displayed on each page of the navigation tree.</small></th><td><input type="number" name="MaxNavigationItems" id="MaxNavigationItems" value="50"><a class="restore-default hide" href="#MaxNavigationItems" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeEnableGrouping">Group items in the tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeEnableGrouping" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Group items in the navigation tree (determined by the separator defined in the Databases and Tables tabs above).</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeEnableGrouping" id="NavigationTreeEnableGrouping" checked="checked"></span><a class="restore-default hide" href="#NavigationTreeEnableGrouping" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeEnableExpansion">Enable navigation tree expansion</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeEnableExpansion" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to offer the possibility of tree expansion in the navigation panel.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeEnableExpansion" id="NavigationTreeEnableExpansion" checked="checked"></span><a class="restore-default hide" href="#NavigationTreeEnableExpansion" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowTables">Show tables in tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowTables" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to show tables under database in the navigation tree</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowTables" id="NavigationTreeShowTables" checked="checked"></span><a class="restore-default hide" href="#NavigationTreeShowTables" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowViews">Show views in tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowViews" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to show views under database in the navigation tree</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowViews" id="NavigationTreeShowViews" checked="checked"></span><a class="restore-default hide" href="#NavigationTreeShowViews" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowFunctions">Show functions in tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowFunctions" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to show functions under database in the navigation tree</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowFunctions" id="NavigationTreeShowFunctions" checked="checked"></span><a class="restore-default hide" href="#NavigationTreeShowFunctions" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowProcedures">Show procedures in tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowProcedures" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to show procedures under database in the navigation tree</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowProcedures" id="NavigationTreeShowProcedures" checked="checked"></span><a class="restore-default hide" href="#NavigationTreeShowProcedures" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowEvents">Show events in tree</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowEvents" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Whether to show events under database in the navigation tree</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowEvents" id="NavigationTreeShowEvents" checked="checked"></span><a class="restore-default hide" href="#NavigationTreeShowEvents" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table>
+</fieldset>
+<fieldset class="optbox" id="Navi_servers" style="display: none;">
+<legend>Servers</legend>
+    <p>Servers display options.</p>
+<table width="100%" cellspacing="0">
+<tbody><tr><th><label for="NavigationDisplayServers">Display servers selection</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationDisplayServers" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Display server choice at the top of the navigation panel.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationDisplayServers" id="NavigationDisplayServers" checked="checked"></span><a class="restore-default hide" href="#NavigationDisplayServers" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="DisplayServersList">Display servers as a list</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_DisplayServersList" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Show server listing as a list instead of a drop down.</small></th><td><span class="checkbox"><input type="checkbox" name="DisplayServersList" id="DisplayServersList"></span><a class="restore-default hide" href="#DisplayServersList" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table>
+</fieldset>
+<fieldset class="optbox" id="Navi_databases" style="display: none;">
+<legend>Databases</legend>
+    <p>Databases display options.</p>
+<table width="100%" cellspacing="0">
+<tbody><tr><th><label for="NavigationTreeDisplayDbFilterMinimum">Minimum number of databases to display the database filter box</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDisplayDbFilterMinimum" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><input type="number" name="NavigationTreeDisplayDbFilterMinimum" id="NavigationTreeDisplayDbFilterMinimum" value="30"><a class="restore-default hide" href="#NavigationTreeDisplayDbFilterMinimum" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDbSeparator">Database tree separator</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDbSeparator" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>String that separates databases into different tree levels.</small></th><td><input type="text" size="25" name="NavigationTreeDbSeparator" id="NavigationTreeDbSeparator" value="_"><a class="restore-default hide" href="#NavigationTreeDbSeparator" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table>
+</fieldset>
+<fieldset class="optbox" id="Navi_tables" style="display: none;">
+<legend>Tables</legend>
+    <p>Tables display options.</p>
+<table width="100%" cellspacing="0">
+<tbody><tr><th><label for="NavigationTreeDefaultTabTable">Target for quick access icon</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDefaultTabTable" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><select class="all85" name="NavigationTreeDefaultTabTable" id="NavigationTreeDefaultTabTable"><option value="structure" selected="selected">Structure</option><option value="sql">SQL</option><option value="search">Search</option><option value="insert">Insert</option><option value="browse">Browse</option></select><a class="restore-default hide" href="#NavigationTreeDefaultTabTable" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDefaultTabTable2">Target for second quick access icon</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDefaultTabTable2" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><select class="all85" name="NavigationTreeDefaultTabTable2" id="NavigationTreeDefaultTabTable2"><option value="" selected="selected"></option><option value="structure">Structure</option><option value="sql">SQL</option><option value="search">Search</option><option value="insert">Insert</option><option value="browse">Browse</option></select><a class="restore-default hide" href="#NavigationTreeDefaultTabTable2" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeTableSeparator">Table tree separator</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeTableSeparator" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>String that separates tables into different tree levels.</small></th><td><input type="text" size="25" name="NavigationTreeTableSeparator" id="NavigationTreeTableSeparator" value="__"><a class="restore-default hide" href="#NavigationTreeTableSeparator" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeTableLevel">Maximum table tree depth</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeTableLevel" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><input type="number" name="NavigationTreeTableLevel" id="NavigationTreeTableLevel" value="1"><a class="restore-default hide" href="#NavigationTreeTableLevel" title="Restore default value" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20db_restoran%20%20%20phpMyAdmin%204.8.1_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table>
+</fieldset>
+</div>
+</form>
+<script type="text/javascript">
+if (typeof configInlineParams === "undefined" || !Array.isArray(configInlineParams)) configInlineParams = [];
+configInlineParams.push(function() {
+validateField('FirstLevelNavigationItems', 'PMA_validatePositiveNumber', true);
+validateField('NumRecentTables', 'PMA_validateNonNegativeNumber', true);
+validateField('NumFavoriteTables', 'PMA_validateNonNegativeNumber', true);
+validateField('NavigationWidth', 'PMA_validateNonNegativeNumber', true);
+validateField('MaxNavigationItems', 'PMA_validatePositiveNumber', true);
+validateField('NavigationTreeTableLevel', 'PMA_validatePositiveNumber', true);
+$.extend(PMA_messages, {
+	'error_nan_p': 'Not a positive number!',
+	'error_nan_nneg': 'Not a non-negative number!',
+	'error_incorrect_port': 'Not a valid port number!',
+	'error_invalid_value': 'Incorrect value!',
+	'error_value_lte': 'Value must be equal or lower than %s!'});
+$.extend(defaultValues, {
+	'ShowDatabasesNavigationAsTree': true,
+	'NavigationLinkWithMainPanel': true,
+	'NavigationDisplayLogo': true,
+	'NavigationLogoLink': 'index.php',
+	'NavigationLogoLinkWindow': ['main'],
+	'NavigationTreePointerEnable': true,
+	'FirstLevelNavigationItems': '100',
+	'NavigationTreeDisplayItemFilterMinimum': '30',
+	'NumRecentTables': '10',
+	'NumFavoriteTables': '10',
+	'NavigationWidth': '240',
+	'MaxNavigationItems': '50',
+	'NavigationTreeEnableGrouping': true,
+	'NavigationTreeEnableExpansion': true,
+	'NavigationTreeShowTables': true,
+	'NavigationTreeShowViews': true,
+	'NavigationTreeShowFunctions': true,
+	'NavigationTreeShowProcedures': true,
+	'NavigationTreeShowEvents': true,
+	'NavigationDisplayServers': true,
+	'DisplayServersList': false,
+	'NavigationTreeDisplayDbFilterMinimum': '30',
+	'NavigationTreeDbSeparator': '_',
+	'NavigationTreeDefaultTabTable': ['structure'],
+	'NavigationTreeDefaultTabTable2': [''],
+	'NavigationTreeTableSeparator': '__',
+	'NavigationTreeTableLevel': '1'});
+});
+if (typeof configScriptLoaded !== "undefined" && configInlineParams) loadInlineConfig();
+</script>
+</div></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-corner-all ui-widget">Apply</button><button type="button" class="ui-button ui-corner-all ui-widget">Cancel</button></div></div></div><div class="ui-widget-overlay ui-front" style="z-index: 800;"></div></body></html>
